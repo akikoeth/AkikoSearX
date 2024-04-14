@@ -1,0 +1,13 @@
+{% extends "simple/base1.html" %}
+{% from 'simple/icons.html' import icon_big %}
+{% block content %}
+<div class="index">
+    <div class="title" style="height: 180px; border-radius: 100%; margin: 0;">
+        <h1>AkikoSearch</h1>
+    </div>
+    <a href="https://github.com/akikoeth">
+        <h1 style="visibility: visible; color: #fff; font-size: 1.5rem;">AkikoSearX</h1>
+    </a>
+    {% include 'simple/simple_search.html' %}
+</div>
+{% endblock %}
